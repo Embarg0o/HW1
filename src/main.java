@@ -35,7 +35,8 @@ public class main {
                 new Player("Ваня", new PlayerAction[] { getRunAction(), getRopeAction()}),
                 new Player("Петя", new PlayerAction[] { getRunAction(), getJumpAction(), getSwimAction(),getRopeAction() }),
                 new Player("Лена", new PlayerAction[] { getSwimAction(), getRopeAction()}),
-                new Player("Олег", new PlayerAction[] {  getRopeAction()})
+                new Player("Олег", new PlayerAction[] {  getRopeAction()}),
+                new Player("Герасим", new PlayerAction[] {  getRunAction(), getJumpAction()})
         };
     }
 
