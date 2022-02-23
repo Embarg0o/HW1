@@ -1,7 +1,7 @@
-package Actions;
+package HW1.Actions;
 
-import Obstacles.Obstacle;
-import Obstacles.Racetrack;
+import HW1.Obstacles.Obstacle;
+import HW1.Obstacles.Racetrack;
 
 public class RunAction implements PlayerAction {
     private int maxDistance;

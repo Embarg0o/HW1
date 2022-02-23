@@ -1,6 +1,8 @@
-import Actions.ActionState;
-import Actions.PlayerAction;
-import Obstacles.Obstacle;
+package HW1;
+
+import HW1.Actions.ActionState;
+import HW1.Actions.PlayerAction;
+import HW1.Obstacles.Obstacle;
 
 public class Player {
     private final String name;

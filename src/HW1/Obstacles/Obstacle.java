@@ -1,4 +1,4 @@
-package Obstacles;
+package HW1.Obstacles;
 
 public abstract class Obstacle {
     private int distance;

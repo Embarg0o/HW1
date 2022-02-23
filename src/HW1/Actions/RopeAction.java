@@ -1,7 +1,7 @@
-package Actions;
+package HW1.Actions;
 
-import Obstacles.Obstacle;
-import Obstacles.Rope;
+import HW1.Obstacles.Obstacle;
+import HW1.Obstacles.Rope;
 
 public class RopeAction implements PlayerAction {
     private int maxDistance;

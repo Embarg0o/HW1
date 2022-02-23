@@ -1,6 +1,6 @@
-package Actions;
+package HW1.Actions;
 
-import Obstacles.Obstacle;
+import HW1.Obstacles.Obstacle;
 
 public interface PlayerAction {
     void pass(Obstacle obstacle);

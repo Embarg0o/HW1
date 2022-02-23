@@ -1,9 +1,11 @@
-import Actions.JumpAction;
-import Actions.PlayerAction;
-import Actions.RunAction;
-import Actions.SwimAction;
-import Obstacles.*;
-import Actions.RopeAction;
+package HW1;
+
+import HW1.Actions.JumpAction;
+import HW1.Actions.PlayerAction;
+import HW1.Actions.RunAction;
+import HW1.Actions.SwimAction;
+import HW1.Obstacles.*;
+import HW1.Actions.RopeAction;
 
 import java.util.Random;
 public class main {
