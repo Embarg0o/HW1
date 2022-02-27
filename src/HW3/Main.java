@@ -65,6 +65,7 @@ public class Main {
             return;
         }
 
+
         try {
             T arrayElement = array[firstIndex];
             array[firstIndex] = array[secondIndex];
