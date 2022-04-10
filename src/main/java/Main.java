@@ -26,6 +26,7 @@ public class Main {
             System.out.println("Не удалось прочитать данные с сервера.");
         }
     }
+
     public static String load5DayForecastOrNull() {
         try {
             URL weatherUrl = new URL(WeatherURL+API_KEY + IS_METRIC);
@@ -45,6 +46,7 @@ public class Main {
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
+
         return null;
     }
 }
